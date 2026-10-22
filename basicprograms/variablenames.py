@@ -1,5 +1,15 @@
 # variable naming conventions in python and playing with them
 
+# multiple declarations can be done using ;
+var1 = 1 ; var2 = 3.4 ; var3 = 'sam'
+print(var1, var2, var3)
+
+# you can break long lines and statements using \ symbol
+
+str = 'Here is a big \
+    line we just broke it'
+print(str)
+
 a,b,c = 1, 'hello', 3.14
 print('Variables can hold different types of values: ', a,b,c)
 
