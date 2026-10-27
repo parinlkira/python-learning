@@ -19,8 +19,8 @@ print('integer' == 'integer')
 print('printer' > 'print')
 
 # Short Circuiting concept is interesting, basically no need to check 
-# cond1 and/or cond2, then in case of and if 1st false, 2nd cond not checked
-# and in case of or if 1st true 2nd cond not checked
+# cond1 and/or cond2, then in case of 'and' if 1st false, 2nd cond not checked
+# and in case of 'or' if 1st true 2nd cond not checked
 
 # But what happens when you compare non-boolean such as 5 and 10? basically
 # any number other than 0 = False is True = 1, 5, -7, -15 ....
