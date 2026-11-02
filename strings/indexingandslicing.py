@@ -31,7 +31,7 @@ print(s[0: :2])
 print(s[::3])
 print(s[::]) #prints entire string
 
-#reversing a string and storing it in a new string sinc immutable
+#reversing a string and storing it in a new string since immutable
 
 s2 = s[ : : -1 ]
 print(s2)
