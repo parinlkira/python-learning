@@ -10,6 +10,5 @@ for ch in scan:
         clean = clean + ch
     else:
         clean = clean + ' '
-        
+
 print(clean)
-                                  
