@@ -49,7 +49,7 @@ l1[9:9] = [77]  # inserting 77 at index 9 (end of the list)
 
 l1[3:3] = [10,11,12] # since only start and stop is mentioned, 
 #any number of elements can be inserted at that position
-# but if start, stop and end are inserted, then you have to enter 
+# but if start, stop and step are inserted, then you have to enter 
 # the exact number of element in between start and stop indices
 print(l1)
 
